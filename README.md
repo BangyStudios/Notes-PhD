@@ -5,7 +5,7 @@ Research and study notes organised by topic area, covering machine learning theo
 ## Topics
 
 | Folder | Description |
-|---|---|ß
+|---|---|
 | Category Theory | Categorical frameworks and their connections to AI and representation learning |
 | Convolution | Convolutional operations and related techniques |
 | Diffusion Models | Diffusion-based generative models |
