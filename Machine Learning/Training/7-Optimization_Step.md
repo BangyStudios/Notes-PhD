@@ -12,7 +12,7 @@ $$
 \theta_t = \theta_{t-1} - \eta\, \nabla_\theta \mathcal{L}(\theta_{t-1})
 $$
 - **$\eta > 0$:** Learning rate — controls the step size. Too large causes divergence; too small causes slow convergence.
-- **$\nabla_\theta \mathcal{L} \in \mathbb{R}^{|\theta|}$:** Gradient of the loss with respect to parameters, computed by backpropagation.
+- **$\nabla_\theta \mathcal{L} \in \mathbb{R}^{|\theta|}$:** Gradient of the loss with respect to parameters, computed by backpropagation. Also written as: $\frac{\partial \mathcal{L}}{\partial W^{(\mathcal{l})}}$
 ### Adam (Adaptive Moment Estimation)
 Adam maintains a running first moment (mean) $m_t$ and second moment (uncentered variance) $v_t$ of the gradients, with bias-correction for the zero initialization:
 $$
